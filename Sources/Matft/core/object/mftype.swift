@@ -67,6 +67,7 @@ public enum MfType: Int{
     
     @available(macOS 10.13, *)
     @available(iOS 14.0, *)
+    @available(tvOS 14.0, *)
     static internal func mftype(value: MLMultiArrayDataType) -> MfType{
         switch value {
         case .double:

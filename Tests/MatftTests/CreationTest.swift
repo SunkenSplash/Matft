@@ -7,6 +7,7 @@ final class CreationTests: XCTestCase {
     
     @available(macOS 12.0, *)
     @available(iOS 14.0, *)
+    @available(tvOS 14.0, *)
     func testFromMLMultiArray() {
         do {
             let scalars = Array<Float>(stride(from: 0, to: 28, by: 2))
@@ -35,6 +36,7 @@ final class CreationTests: XCTestCase {
     
     @available(macOS 12.0, *)
     @available(iOS 14.0, *)
+    @available(tvOS 14.0, *)
     func testFromMLMultiArrayShare() {
         do {
             let scalars = Array<Float>(stride(from: 0, to: 28, by: 2))
