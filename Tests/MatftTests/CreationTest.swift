@@ -7,6 +7,7 @@ final class CreationTests: XCTestCase {
     
     @available(macOS 12.0, *)
     @available(iOS 14.0, *)
+    @available(watchOS 7.0, *)
     @available(tvOS 14.0, *)
     func testFromMLMultiArray() {
         do {
@@ -36,6 +37,7 @@ final class CreationTests: XCTestCase {
     
     @available(macOS 12.0, *)
     @available(iOS 14.0, *)
+    @available(watchOS 7.0, *)
     @available(tvOS 14.0, *)
     func testFromMLMultiArrayShare() {
         do {

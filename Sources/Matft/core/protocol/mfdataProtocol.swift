@@ -14,5 +14,6 @@ extension MfData: MfDataBasable{}
 
 @available(macOS 10.13, *)
 @available(iOS 14.0, *)
+@available(watchOS 7.0, *)
 @available(tvOS 14.0, *)
 extension MLMultiArray: MfDataBasable{}
